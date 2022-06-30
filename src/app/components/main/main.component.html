@@ -1,0 +1,8 @@
+<h1 class="title">LIRA</h1>
+<div class="LIRA-container">
+  <lira-page
+    *ngFor="let page of liraImages; let i = index"
+    [img]="liraImages[i]"
+    [text]="liraText[i]"
+  ></lira-page>
+</div>

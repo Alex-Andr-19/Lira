@@ -1,0 +1,41 @@
+.main-block {
+  position: relative;
+
+  min-width: 100vw;
+
+  padding-right: 10em;
+
+  display: flex;
+  justify-content: end;
+}
+
+.main-block img {
+  position: absolute;
+  top: -10%;
+  left: 0;
+
+  width: 40%;
+}
+
+.main-block .route-map-box {
+  min-width: 40%;
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.main-block .route-map-box .title {
+  font-size: 3em;
+  letter-spacing: .3em;
+  color: #5b5b5b;
+}
+
+.main-block .route-map-box .desc {
+  color: gray;
+  font-size: .9em;
+  font-weight: normal;
+  text-align: center;
+}

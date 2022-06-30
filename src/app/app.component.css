@@ -1,0 +1,99 @@
+header {
+  width: 100%;
+  height: 10vh;
+
+  padding: 1em;
+
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: right;
+}
+
+header a {
+  text-decoration: none;
+  color: #CE3E00;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  position: relative;
+
+  width: 100%;
+  height: 78vh;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 10vh;
+
+  padding: 0 1.5em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .radio {
+  width: 15%;
+
+  padding: .5em 1em;
+
+  box-shadow: 3px 3px 20px lightgrey;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .radio .bear-container {
+  position: relative;
+}
+
+footer .radio .bear {
+  position: absolute;
+  top: -122%;
+  left: -1.5em;
+}
+
+footer .radio .music {
+  margin-right: -3em;
+}
+
+footer .radio .author {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+footer .radio .single {
+  font-size: .8em;
+  color: gray;
+}
+
+footer .radio .ecwalizer {
+  width: 13%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+footer .contacts {
+  width: 10%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contacts img {
+  width: 25px;
+}
